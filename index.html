@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Academic Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+  <h2>Academic Portfolio</h2>
+  <ul>
+    <li><a class="active" href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="blog.html">Blog</a></li>
+    <li><a href="contact.html">Contact</a></li>
+    <li><a href="resume.html">Resume</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <p class="badge">CURRENTLY: PH.D. CANDIDATE @ STANFORD</p>
+  <h1>Alexandria Vance</h1>
+  <h3>Computer Science Researcher &amp; AI Ethicist</h3>
+  <p class="hero-text">
+    Exploring the intersection of large language models and human cognitive
+    biases. Dedicated to building transparent AI systems that augment human
+    potential without compromising ethical integrity.
+  </p>
+  <div class="hero-buttons">
+    <a href="blog-post.html" class="btn dark">Read Blog &rarr;</a>
+    <a href="resume.html" class="btn light">About Me</a>
+  </div>
+</section>
+
+<!-- INTERESTS -->
+<section class="interests">
+  <h2><span>Highlighted Interests</span></h2>
+
+  <div class="grid">
+
+    <!-- Card 1: Neural Architecture Search -->
+    <div class="card first-card">
+      <div class="icon">
+        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M9.5 2a2.5 2.5 0 0 1 5 0v.5a2.5 2.5 0 0 0 2.5 2.5H18a2 2 0 0 1 2 2v.5a2.5 2.5 0 0 1-2.5 2.5h-.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h.5a2.5 2.5 0 0 1 0 5h-.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5H18a2 2 0 0 1 2 2v.5a2.5 2.5 0 0 1-5 0V21a2.5 2.5 0 0 0-2.5-2.5H12a2.5 2.5 0 0 0-2.5 2.5v.5a2.5 2.5 0 0 1-5 0V21a2 2 0 0 1 2-2h.5a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5H6.5a2.5 2.5 0 0 1 0-5H7a.5.5 0 0 0 .5-.5v-1A.5.5 0 0 0 7 10h-.5A2.5 2.5 0 0 1 4 7.5V7a2 2 0 0 1 2-2h.5A2.5 2.5 0 0 0 9 2.5V2z"/>
+        </svg>
+      </div>
+      <h3>Neural Architecture Search</h3>
+      <p>Optimizing the structural design of neural networks to minimize computational overhead
+         while maximizing inference speed in edge-case scenarios.</p>
+      <div class="tags">
+        <span>PyTorch</span>
+        <span>AutoML</span>
+        <span>DL Research</span>
+      </div>
+    </div>
+
+    <!-- Card 2: Algorithmic Governance (dark) -->
+    <div class="card dark-card">
+      <div class="icon">
+        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+          <circle cx="12" cy="12" r="3"/>
+        </svg>
+      </div>
+      <h3>Algorithmic Governance</h3>
+      <p>Developing frameworks for the legal and ethical oversight of autonomous
+         decision-making systems in public policy.</p>
+      <a href="#" class="card-link">Whitepaper &#8599;</a>
+    </div>
+
+    <!-- Card 3: Data Sovereignty -->
+    <div class="card light-card">
+      <div class="icon">
+        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+          <ellipse cx="12" cy="5" rx="9" ry="3"/>
+          <path d="M3 5v4c0 1.657 4.03 3 9 3s9-1.343 9-3V5"/>
+          <path d="M3 9v4c0 1.657 4.03 3 9 3s9-1.343 9-3V9"/>
+          <path d="M3 13v4c0 1.657 4.03 3 9 3s9-1.343 9-3v-4"/>
+        </svg>
+      </div>
+      <h3>Data Sovereignty</h3>
+      <p>Investigating decentralized data storage protocols that grant users
+         granular control over their digital footprint.</p>
+    </div>
+
+    <!-- Card 4: Interdisciplinary Collaboration (image bg) -->
+    <div class="card image-card">
+      <div class="image-card-overlay">
+        <h3>Interdisciplinary Collaboration</h3>
+        <p>Bridging the gap between pure mathematics and
+           sociopolitical implications of technology.</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- BLOG PREVIEW -->
+<section class="blog-preview">
+  <div class="blog-header">
+    <div class="blog-header-left">
+      <h2>Latest Publications &amp; Thoughts</h2>
+      <p class="blog-subtitle">Exploring the frontiers of technology and society.</p>
+    </div>
+    <a href="blog.html" class="view-all">VIEW ALL POSTS</a>
+  </div>
+
+  <div class="blog-grid">
+
+    <!-- Post 1 -->
+    <div class="blog-card">
+      <div class="blog-img blog-img-1">
+        <span>RESEARCH</span>
+      </div>
+      <div class="blog-card-body">
+        <div class="blog-meta">
+          <span class="meta-tag">RESEARCH</span>
+          <span class="meta-dot">&bull;</span>
+          <span class="meta-date">Oct 12, 2024</span>
+        </div>
+        <h3>The Silent Bias: LLMs and Linguistic Diversity</h3>
+        <p>An investigation into how current training methodologies inadvertently suppress
+           regional dialects and minority languages in&hellip;</p>
+        <a href="blog-post.html" class="read-link">Read Article &rarr;</a>
+      </div>
+    </div>
+
+    <!-- Post 2 -->
+    <div class="blog-card">
+      <div class="blog-img blog-img-2">
+        <div class="orb"></div>
+      </div>
+      <div class="blog-card-body">
+        <div class="blog-meta">
+          <span class="meta-tag">OPINION</span>
+          <span class="meta-dot">&bull;</span>
+          <span class="meta-date">Sep 28, 2024</span>
+        </div>
+        <h3>Redefining Digital Privacy in the Age of Synthesis</h3>
+        <p>As generative AI becomes more prevalent, our traditional definitions of personal
+           data and digital identity require a fundamental&hellip;</p>
+        <a href="blog-post.html" class="read-link">Read Article &rarr;</a>
+      </div>
+    </div>
+
+    <!-- Post 3 -->
+    <div class="blog-card">
+      <div class="blog-img blog-img-3">
+        <span>AI</span>
+      </div>
+      <div class="blog-card-body">
+        <div class="blog-meta">
+          <span class="meta-tag">TUTORIAL</span>
+          <span class="meta-dot">&bull;</span>
+          <span class="meta-date">Aug 15, 2024</span>
+        </div>
+        <h3>A Practical Guide to Federated Learning Frameworks</h3>
+        <p>A technical walkthrough of implementing privacy-preserving machine learning
+           across distributed device networks using OpenMined</p>
+        <a href="blog-post.html" class="read-link">Read Article &rarr;</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-left">
+    <p class="footer-logo">Academic Portfolio</p>
+    <p class="footer-tagline">BUILT WITH ACADEMIC MINIMALISM.</p>
+    <p class="footer-copy">&copy; 2024 Professional Portfolio. All rights reserved.</p>
+  </div>
+  <div class="footer-links">
+    <a href="#">LinkedIn Profile</a>
+    <a href="#">ResearchGate</a>
+    <a href="#">GitHub</a>
+    <a href="#">Newsletter</a>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

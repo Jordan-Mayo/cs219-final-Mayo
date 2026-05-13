@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Blog — Academic Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=DM+Sans:wght@400;500&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <h2>Academic Portfolio</h2>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="blog.html" class="active">Blog</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="resume.html">Resume</a></li>
+    </ul>
+  </nav>
+
+  <!-- BLOG PAGE HERO -->
+  <section class="blog-page-hero">
+    <h1>Insights &amp; Academic<br>Research</h1>
+    <p>A collection of thoughts, peer-reviewed findings, and technical explorations<br>at the intersection of data science and human behavior.</p>
+  </section>
+
+  <!-- SEARCH + FILTERS -->
+  <div class="blog-filters-wrap">
+    <div class="blog-search-box">
+      <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="none" viewBox="0 0 24 24" stroke="#9ca3af" stroke-width="2">
+        <circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
+      </svg>
+      <input type="text" placeholder="Search publications and posts..."/>
+    </div>
+    <div class="blog-filter-tags">
+      <button class="filter-tag active">All</button>
+      <button class="filter-tag">Machine Learning</button>
+      <button class="filter-tag">Ethical AI</button>
+      <button class="filter-tag">Data Visualization</button>
+      <button class="filter-tag">Research</button>
+    </div>
+  </div>
+
+  <!-- FEATURED + SIDE POST -->
+  <div class="blog-featured-wrap">
+
+    <!-- Featured large card -->
+    <article class="featured-post" data-category="research">
+      <div class="featured-img">
+        <img src="https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=900&q=80" alt="Neural Architecture"/>
+      </div>
+      <div class="featured-body">
+        <div class="blog-meta">
+          <span class="meta-tag">FEATURED RESEARCH</span>
+          <span class="meta-dot">·</span>
+          <span class="meta-date">Oct 24, 2024</span>
+        </div>
+        <h2>The Neural Architecture of Decision Making: A 2024 Synthesis</h2>
+        <p>Exploring how modern deep learning frameworks are beginning to mirror biological neurological pathways in complex decision-making environments. This paper summarizes our recent three-year longitudinal study…</p>
+        <a href="blog-post.html" class="read-link">Read Publication →</a>
+      </div>
+    </article>
+
+    <!-- Side card -->
+    <article class="side-post" data-category="data visualization">
+      <div class="side-img">
+        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&q=80" alt="Data Visualization"/>
+      </div>
+      <div class="side-body">
+        <div class="blog-meta">
+          <span class="meta-tag">Data Visualization</span>
+          <span class="meta-dot">·</span>
+          <span class="meta-date">Oct 18, 2024</span>
+        </div>
+        <h3>Quantifying Aesthetic Impact in UI</h3>
+        <p>Can we measure the objective beauty of a user interface using statistical models? Exploring the intersection of mathematics and design.</p>
+      </div>
+    </article>
+
+  </div>
+
+  <!-- SECONDARY POSTS GRID -->
+  <div class="blog-secondary-wrap">
+
+    <article class="sec-post" data-category="ethical ai">
+      <div class="sec-img">
+        <img src="https://lh5.googleusercontent.com/proxy/FbaP05lVKG7vi1kJ6IJwUi14HH1UpFVJ1ertjwYOWJKMBetmGk3kRH0UKldSippNyXkJpO9qQmtRABR3twrBeEvJVRqw57_JHaVKZWUpn00zMorYiTg" alt="Ethical AI"/>
+      </div>
+      <div class="sec-body">
+        <div class="blog-meta">
+          <span class="meta-tag">Ethical AI</span>
+          <span class="meta-dot">·</span>
+          <span class="meta-date">Oct 12, 2024</span>
+        </div>
+        <h3>The Bias in the Machine</h3>
+        <p>A critical look at dataset curation and the inherent socio-economic biases present in large language models.</p>
+      </div>
+    </article>
+
+    <article class="sec-post" data-category="machine learning">
+      <div class="sec-img">
+        <img src="https://www.udacity.com/blog/wp-content/uploads/2022/07/Data-Streaming-Technologies_Blog-scaled.jpeg" alt="ML Engineering"/>
+      </div>
+      <div class="sec-body">
+        <div class="blog-meta">
+          <span class="meta-tag">ML Engineering</span>
+          <span class="meta-dot">·</span>
+          <span class="meta-date">Sep 29, 2024</span>
+        </div>
+        <h3>Distributed Computing at Scale</h3>
+        <p>Technical deep dive into the infrastructure required to train the next generation of transformer models.</p>
+      </div>
+    </article>
+
+    <article class="sec-post" data-category="research">
+      <div class="sec-img">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSz32uMb--BQUAr_tbLg1uEImiLrZVroxIlzw&s" alt="Peer Review"/>
+      </div>
+      <div class="sec-body">
+        <div class="blog-meta">
+          <span class="meta-tag">Academic Life</span>
+          <span class="meta-dot">·</span>
+          <span class="meta-date">Sep 15, 2024</span>
+        </div>
+        <h3>Peer Review: A Broken System?</h3>
+        <p>Evaluating alternative models for scientific dissemination and the role of open-access journals.</p>
+      </div>
+    </article>
+
+  </div>
+
+  <!-- PAGINATION -->
+  <div class="blog-pagination">
+    <button class="page-btn nav-btn" aria-label="Previous">&lsaquo;</button>
+    <button class="page-btn active">1</button>
+    <button class="page-btn">2</button>
+    <button class="page-btn">3</button>
+    <span class="page-ellipsis">…</span>
+    <button class="page-btn">12</button>
+    <button class="page-btn nav-btn" aria-label="Next">&rsaquo;</button>
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+    <div>
+      <div class="footer-logo">Academic Portfolio</div>
+      <div class="footer-tagline">Professional Portfolio. Built with Academic Minimalism.</div>
+      <div class="footer-copy">&copy; 2024 Professional Portfolio. Built with Academic Minimalism. All research rights reserved.</div>
+    </div>
+    <div>
+      <div class="footer-section-label">LINKS</div>
+      <div class="footer-links footer-links-col">
+        <a href="#">LinkdIn Profile</a>
+        <a href="#">ResearchGate</a>
+      </div>
+    </div>
+    <div>
+      <div class="footer-section-label">RESOURCES</div>
+      <div class="footer-links footer-links-col">
+        <a href="#">GitHub</a>
+        <a href="#">Newsletter</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
